@@ -93,7 +93,7 @@ class Root(Tk):
 
         result.append(grid*1)
 
-        for iteration in range(iterations):
+        for _ in range(iterations):
 
             grid = ExecuteRule(grid, rules)
 

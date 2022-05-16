@@ -104,7 +104,6 @@ class Root(Tk):
         a.imshow(result, cmap = 'Blues')
 
         canvas = FigureCanvasTkAgg(f, self)
-        #canvas.show()
         canvas.get_tk_widget().place(x = 120, y = 50)
 
         return 0
